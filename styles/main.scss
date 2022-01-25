@@ -1,5 +1,4 @@
 @import "variables";
-@import "mixin";
 
 body {
   font-family: $font-family-base;
@@ -22,24 +21,25 @@ h2 {
   font-size: 2.5rem;
 }
 
+h3 {
+  font-size: 2rem;
+}
+
 p {
   font-size: 1.5rem;
   font-weight: 500;
   color: $firsttext;
 }
 
-.btn-section {
-  @include btn;
-}
-
 .btn-main {
-  background-color: $btn-main;
+  background-color: $primary-second;
 }
 
 .btn {
   border-radius: 10em;
 }
 
+//Banner
 .banner {
   background-image: url("../images/background.png");
 
@@ -52,12 +52,52 @@ p {
   }
 }
 
+//Banner Second
+
 .banner-second {
   .bp-2 {
     color: $secondtext;
   }
 
   .btn-third {
-    color: $btn-main;
+    color: $primary-second;
   }
+}
+
+//Link
+.a-link {
+  text-decoration: none;
+  color: $primary-second;
+}
+
+//Pricing
+
+.pricing {
+  background-color: $dark-background;
+  color: $white;
+
+  .pricing-paragraph {
+    color: $white;
+  }
+
+  .price {
+    font-size: 80px;
+    color: $secondtext;
+  }
+
+  .pp-1 {
+    position: relative;
+  }
+
+  .pp-2 {
+    position: absolute;
+    top: 80px;
+    left: 770px;
+    font-size: 30px;
+  }
+}
+
+//footer
+.footer {
+  margin-top: -30px;
 }

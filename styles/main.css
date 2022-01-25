@@ -19,19 +19,14 @@ h2 {
   font-size: 2.5rem;
 }
 
+h3 {
+  font-size: 2rem;
+}
+
 p {
   font-size: 1.5rem;
   font-weight: 500;
   color: #5c5c5c;
-}
-
-.btn-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .btn-main {
@@ -60,5 +55,39 @@ p {
 
 .banner-second .btn-third {
   color: #00b6f0;
+}
+
+.a-link {
+  text-decoration: none;
+  color: #00b6f0;
+}
+
+.pricing {
+  background-color: #182333;
+  color: #ffffff;
+}
+
+.pricing .pricing-paragraph {
+  color: #ffffff;
+}
+
+.pricing .price {
+  font-size: 80px;
+  color: #f3cd03;
+}
+
+.pricing .pp-1 {
+  position: relative;
+}
+
+.pricing .pp-2 {
+  position: absolute;
+  top: 80px;
+  left: 770px;
+  font-size: 30px;
+}
+
+.footer {
+  margin-top: -30px;
 }
 /*# sourceMappingURL=main.css.map */
