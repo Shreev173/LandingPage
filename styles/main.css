@@ -1,0 +1,64 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #20262a;
+}
+
+.py-section {
+  padding: 100px 0;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #112d57;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #5c5c5c;
+}
+
+.btn-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn-main {
+  background-color: #00b6f0;
+}
+
+.btn {
+  border-radius: 10em;
+}
+
+.banner {
+  background-image: url("../images/background.png");
+}
+
+.banner .bp1-1 {
+  margin: 30px;
+}
+
+.banner .btn-second {
+  background-color: #ffffff;
+}
+
+.banner-second .bp-2 {
+  color: #f3cd03;
+}
+
+.banner-second .btn-third {
+  color: #00b6f0;
+}
+/*# sourceMappingURL=main.css.map */
