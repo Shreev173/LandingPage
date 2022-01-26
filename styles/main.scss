@@ -36,10 +36,11 @@ p {
 }
 
 .btn {
-  border-radius: 10em;
+  border-radius: 30px;
 }
 
 //Banner
+
 .banner {
   background-image: url("../images/background.png");
 
@@ -49,6 +50,11 @@ p {
 
   .btn-second {
     background-color: $white;
+
+    &:hover {
+      background-color: $primary-second;
+      color: $white;
+    }
   }
 }
 
@@ -61,6 +67,11 @@ p {
 
   .btn-third {
     color: $primary-second;
+
+    &:hover {
+      background-color: $primary-second;
+      color: $white;
+    }
   }
 }
 
@@ -75,6 +86,7 @@ p {
 .pricing {
   background-color: $dark-background;
   color: $white;
+  overflow: hidden;
 
   .pricing-paragraph {
     color: $white;
